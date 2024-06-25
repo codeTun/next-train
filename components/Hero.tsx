@@ -1,10 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "../ui/hero-highlight";
+import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 
 export function Hero() {
   return (
-    <div >
+    <div>
       <HeroHighlight>
         <motion.h1
           initial={{
