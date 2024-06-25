@@ -21,10 +21,10 @@ export function Hero() {
           }}
           className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-800 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
         >
-          With our company, nothing&apos;s real. Everything is far away.
-          Everything is a{" "}
+          Embark on a journey where imagination meets reality. Where every dream
+          is a spark{" "} <br />
           <Highlight className="text-black dark:text-white">
-            copy, of a copy, of a copy.
+             igniting endless possibilities.
           </Highlight>
         </motion.h1>
       </HeroHighlight>

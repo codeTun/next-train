@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { Hero } from "../components/Hero";
 import Body from "../components/Body";
 import Footer from "../components/Footer";
+import Users from "../components/Users";
 
 const Home: React.FC = () => {
   return (
@@ -12,7 +13,8 @@ const Home: React.FC = () => {
       <div className="">
         <Body />
       </div>
-      <Footer/>
+      <Users />
+      <Footer />
     </>
   );
 };
