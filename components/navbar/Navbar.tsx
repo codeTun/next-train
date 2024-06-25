@@ -1,5 +1,5 @@
 "use client";
-
+import { Button } from "../ui/moving-border";
 const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
@@ -10,7 +10,7 @@ const Navbar = () => {
             className="h-8"
             alt="Flowbite Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">
             Flowbite
           </span>
         </a>
@@ -195,13 +195,14 @@ const Navbar = () => {
                 Pricing
               </a>
             </li>
+
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              <Button
+                borderRadius="1.25rem"
+                className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
               >
-                Contact
-              </a>
+                Contact us
+              </Button>
             </li>
           </ul>
         </div>
