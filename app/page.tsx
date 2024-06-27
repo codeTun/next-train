@@ -10,9 +10,9 @@ const Home: React.FC = () => {
     <>
       <Navbar />
       <Hero />
-      <div className="">
-        <Body />
-      </div>
+
+      <Body />
+
       <Users />
       <Footer />
     </>
